@@ -1,0 +1,6 @@
+.badge { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 0.78rem; font-weight: 600; text-transform: capitalize; white-space: nowrap; }
+.good { background: var(--accent-soft); color: #064b3e; }
+.warn { background: var(--warn-soft); color: #6b4410; }
+.bad { background: var(--danger-soft); color: #7a1f14; }
+.info { background: var(--info-soft); color: #1d3f73; }
+.neutral { background: #e8eeec; color: var(--muted); }

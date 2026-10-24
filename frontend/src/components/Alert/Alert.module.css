@@ -1,0 +1,6 @@
+.alert { display: flex; justify-content: space-between; gap: 12px; padding: 10px 14px; border-radius: var(--radius); font-size: 0.9rem; border: 1px solid; overflow-wrap: anywhere; }
+.error { background: var(--danger-soft); border-color: #f0b9b1; color: #7a1f14; }
+.success { background: var(--accent-soft); border-color: #a5dccd; color: #064b3e; }
+.info { background: var(--info-soft); border-color: #b5cbea; color: #1d3f73; }
+.warning { background: var(--warn-soft); border-color: #ecd193; color: #6b4410; }
+.close { background: none; border: 0; cursor: pointer; font-weight: 700; }

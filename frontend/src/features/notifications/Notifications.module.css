@@ -1,0 +1,5 @@
+.list { list-style: none; margin: 0; padding: 0; }
+.list li { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 14px 18px; border-bottom: 1px solid var(--line); }
+.list li:last-child { border-bottom: 0; }
+.list p { font-size: 0.9rem; color: var(--muted); }
+.unread { background: var(--accent-soft); }

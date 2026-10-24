@@ -1,0 +1,8 @@
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 0.8rem; color: var(--muted); margin-bottom: 8px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; }
+.scroll { overflow-x: auto; padding-bottom: 4px; }
+.chart { display: flex; align-items: stretch; gap: 6px; border-bottom: 1px solid var(--line); padding-bottom: 22px; position: relative; }
+.group { flex: 1; min-width: 28px; display: flex; flex-direction: column; justify-content: flex-end; position: relative; }
+.bars { flex: 1; display: flex; align-items: flex-end; justify-content: center; gap: 2px; }
+.bar { width: 100%; max-width: 16px; border-radius: 3px 3px 0 0; min-height: 2px; }
+.label { position: absolute; bottom: -20px; left: 0; right: 0; text-align: center; font-size: 0.7rem; color: var(--muted); }

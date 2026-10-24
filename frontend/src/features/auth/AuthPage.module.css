@@ -1,0 +1,17 @@
+.page { min-height: 100vh; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.hero { background: var(--nav); color: #fff; padding: 48px; display: flex; flex-direction: column; justify-content: space-between; gap: 32px; }
+.hero h1 { font-size: 2.3rem; line-height: 1.15; max-width: 14ch; }
+.hero p { color: var(--nav-ink); max-width: 38ch; margin-top: 14px; }
+.logo { display: flex; align-items: center; gap: 10px; font-weight: 700; }
+.logo span { display: inline-grid; place-items: center; width: 32px; height: 32px; border-radius: 8px; background: #45d6b5; color: var(--nav); font-weight: 800; }
+.roles { display: flex; gap: 8px; flex-wrap: wrap; }
+.roles span { border: 1px solid #2c4a43; border-radius: 999px; padding: 3px 12px; font-size: 0.82rem; color: var(--nav-ink); }
+.panel { display: grid; place-items: center; padding: 32px 20px; }
+.form { width: 100%; max-width: 400px; display: flex; flex-direction: column; gap: 16px; }
+.foot { text-align: center; font-size: 0.9rem; }
+@media (max-width: 800px) {
+  .page { grid-template-columns: 1fr; }
+  .hero { padding: 24px 20px; gap: 16px; }
+  .hero h1 { font-size: 1.6rem; max-width: none; }
+  .hero p, .roles { display: none; }
+}

@@ -1,0 +1,13 @@
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); min-width: 0; }
+.head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 14px 18px; border-bottom: 1px solid var(--line); }
+.action { display: flex; gap: 8px; flex-wrap: wrap; }
+.body { padding: 18px; }
+.flush { padding: 0; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: var(--radius); padding: 14px 16px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.warn { border-left-color: var(--warn); }
+.danger { border-left-color: var(--danger); }
+.info { border-left-color: var(--info); }
+.statLabel { color: var(--muted); font-size: 0.82rem; }
+.statValue { font-size: 1.7rem; line-height: 1.2; letter-spacing: -0.02em; overflow-wrap: anywhere; }
+.statHint { color: var(--muted); font-size: 0.78rem; }
+@media (max-width: 480px) { .body { padding: 14px; } .statValue { font-size: 1.4rem; } }

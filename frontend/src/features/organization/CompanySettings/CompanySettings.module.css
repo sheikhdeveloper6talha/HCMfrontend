@@ -1,0 +1,3 @@
+.weekends { margin: 16px 0 0; border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 14px; display: flex; gap: 8px 18px; flex-wrap: wrap; }
+.weekends legend { font-size: 0.85rem; font-weight: 600; padding: 0 6px; }
+.weekends label { display: inline-flex; gap: 6px; align-items: center; min-height: 32px; }

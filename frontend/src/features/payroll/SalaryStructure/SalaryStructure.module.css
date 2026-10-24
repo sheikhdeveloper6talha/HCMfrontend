@@ -1,0 +1,1 @@
+.sum { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; background: var(--accent-soft); border-radius: var(--radius); padding: 10px 12px; }

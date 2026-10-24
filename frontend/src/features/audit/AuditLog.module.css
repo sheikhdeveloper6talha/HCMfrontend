@@ -1,0 +1,4 @@
+.filter { max-width: 260px; }
+.diff { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); }
+.diff h3 { font-size: 0.9rem; margin-bottom: 6px; }
+.diff pre { margin: 0; background: #f4f7f6; padding: 10px; border-radius: var(--radius); overflow: auto; font-size: 0.78rem; max-height: 320px; }

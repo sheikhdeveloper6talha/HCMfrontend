@@ -1,0 +1,2 @@
+.actions { display: flex; justify-content: flex-end; gap: 10px; flex-wrap: wrap; }
+.secret { font-family: ui-monospace, Consolas, monospace; font-size: 1.15rem; background: var(--accent-soft); padding: 12px; border-radius: var(--radius); margin-top: 10px; user-select: all; overflow-wrap: anywhere; }

@@ -1,0 +1,2 @@
+.filters { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); }
+.chips { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 14px; font-size: 0.85rem; }
